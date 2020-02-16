@@ -7,9 +7,31 @@ import Col from 'react-bootstrap/Col';
 function Jumbotron() {
   return (
     <div className='jumbotron'>
+      <h1>Your Project</h1>
       <Container>
         <Row>
-          <h1>Your Project</h1>
+          <Col xs={6} md={4}>
+            <Card />
+          </Col>
+          <Col xs={6} md={4}>
+            <Card />
+          </Col>
+          <Col xs={6} md={4}>
+            <Card />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={6} md={4}>
+            <Card />
+          </Col>
+          <Col xs={6} md={4}>
+            <Card />
+          </Col>
+          <Col xs={6} md={4}>
+            <Card />
+          </Col>
+        </Row>
+        <Row>
           <Col xs={6} md={4}>
             <Card />
           </Col>
