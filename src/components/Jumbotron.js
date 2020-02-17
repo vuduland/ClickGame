@@ -1,11 +1,10 @@
 import React from 'react';
-import Card from '../Card/Card';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+import Card from './Card';
 import Col from 'react-bootstrap/Col';
-import Images from '../Images/Images';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 
-// import Button from 'react-dom';
+// import Col from 'react-dom';
 function Jumbotron() {
   // handleClick(evt) {
   //   let letter = evt.target.value;
@@ -17,11 +16,12 @@ function Jumbotron() {
   return (
     <div className='jumbotron'>
       <h1>Your Project</h1>
-      <Images />
+
       <Container>
         <Row>
           <Col xs={6} md={4}>
             <Card />
+            {/* <img src={this.props.images[0]} alt='meaningful text' /> */}
           </Col>
           <Col xs={6} md={4}>
             <Card />
@@ -57,3 +57,5 @@ function Jumbotron() {
   );
 }
 export default Jumbotron;
+
+// import React from 'react';

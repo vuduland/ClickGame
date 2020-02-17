@@ -1,20 +1,18 @@
 import React from 'react';
-// import Image from './components/Images/Images';
-// import Button from '@material-ui/core/Button';
-import Jumbotron from './Components/Jumbotron/Jumbotron';
-import ImageList from './Components/Material/Material';
-import images from './Components/ListItems/Item';
+import Scores from './components/Scores.js';
+import Jumbotron from './components/Jumbotron';
+import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
+
 function App() {
   return (
-    <div>
-      <Jumbotron>
-        {/* <Button variant='contained' color='primary'> */}
-        {/* Hello World */}
-        {/* </Button> */}
-        <ImageList />
-        <images />
-        {/* <Image /> */}
-      </Jumbotron>
+    <div className='container'>
+      <Row />
+      {/* <Navbar /> */}
+      {/* <Images /> */}
+      <Button> BUTTON ME </Button>
+      <Scores />
+      <Jumbotron />
     </div>
   );
 }
