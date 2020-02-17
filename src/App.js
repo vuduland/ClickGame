@@ -5,11 +5,14 @@ import Jumbotron from './components/Jumbotron';
 // import Navbar from './components/Navbar';
 import Row from 'react-bootstrap/Row';
 import Button from '@material-ui/core/Button';
+import Images from './components/Images';
+
 function App() {
   return (
     <div className='container'>
       <Row />
       {/* <Navbar /> */}
+      <Images />
       <Button> BUTTON ME </Button>
       <Scores />
       <Jumbotron />
@@ -18,19 +21,3 @@ function App() {
 }
 
 export default App;
-
-// import React from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className='App'>
-//       <header className='App-header'>
-//         <h1> Clicky Game </h1>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
