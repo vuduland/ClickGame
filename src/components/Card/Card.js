@@ -1,5 +1,5 @@
-import React from 'react';
-import Media from 'react-bootstrap/Media';
+import React from './node_modules/react';
+import Media from './node_modules/react-bootstrap/Media';
 
 function Card() {
   return (
