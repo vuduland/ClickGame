@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
-import Card from './Card';
-import Container from './react-bootstrap/Container';
-import Row from './react-bootstrap/Row';
-import Col from './react-bootstrap/Col';
+import React from 'react';
+import Card from '../Card/Card';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Images from '../Images/Images';
 
 // import Button from 'react-dom';
 function Jumbotron() {
@@ -16,12 +17,11 @@ function Jumbotron() {
   return (
     <div className='jumbotron'>
       <h1>Your Project</h1>
-
+      <Images />
       <Container>
         <Row>
           <Col xs={6} md={4}>
             <Card />
-            {/* <img src={this.props.images[0]} alt='meaningful text' /> */}
           </Col>
           <Col xs={6} md={4}>
             <Card />
@@ -57,5 +57,3 @@ function Jumbotron() {
   );
 }
 export default Jumbotron;
-
-// import React from 'react';
