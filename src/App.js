@@ -1,20 +1,20 @@
 import React from 'react';
 // import Image from './components/Images/Images';
 // import Button from '@material-ui/core/Button';
-// import Jumbotron from './components/Jumbotron/Jumbotron';
-import ImageList from './components/Material/Material';
-import Item from '../../../Api/Item';
+import Jumbotron from './Components/Jumbotron/Jumbotron';
+import ImageList from './Components/Material/Material';
+import images from './Components/ListItems/Item';
 function App() {
   return (
     <div>
-      {/* <Jumbotron> */}
-      {/* <Button variant='contained' color='primary'> */}
-      {/* Hello World */}
-      {/* </Button> */}
-      <ImageList />
-      <Item />
-      {/* <Image /> */}
-      {/* </Jumbotron> */}
+      <Jumbotron>
+        {/* <Button variant='contained' color='primary'> */}
+        {/* Hello World */}
+        {/* </Button> */}
+        <ImageList />
+        <images />
+        {/* <Image /> */}
+      </Jumbotron>
     </div>
   );
 }
