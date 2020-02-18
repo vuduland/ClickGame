@@ -12,6 +12,7 @@ class Grid extends Component {
     scoreCurrent: 0,
     highScore: 0,
     outcome: 1
+    // image: images[1]
   };
   handleClick = (id, name) => {
     const clickedArr = [...this.state.clicked];

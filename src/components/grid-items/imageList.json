@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "rsa0",
-    "image": "https://github.com/vuduland/ClickGame/blob/working-branch/src/images/rsa_0.png"
+    "image": "./images/rsa_1.png"
   },
   {
     "id": 1,

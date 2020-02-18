@@ -2,10 +2,10 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #dc3545;
+  --primary-color: #000000;
   --dark-color: #333333;
   --light-color: #f4f4f4;
-  --danger-color: #dc3545;
+  --danger-color: #000000;
   --success-color: #28a745;
 }
 
@@ -19,8 +19,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
-  color: #333;
+  background-color: rgba(138, 137, 148, 0.555);
+  color: rgb(255, 255, 255);
 }
 
 a {
@@ -41,16 +41,28 @@ img {
 }
 img {
   border-radius: 10px;
+  width: 238px;
+  height: 309px;
   border: solid black 2px;
-  box-shadow: 10px 10px 2px 1px rgba(87, 196, 255, 0.756);
+  box-shadow: 10px 10px 2px 1px rgba(2, 17, 0, 0.2);
 }
 
 /* Utilities */
+.row {
+  justify-content: center;
+}
+.r1 {
+  margin-left: 40%;
+  max-width: 100%;
+}
 .container {
-  max-width: 1100px;
+  justify-content: center;
+  position: relative;
+  opacity: 0.8;
+  max-width: 100%;
   margin: auto;
   overflow: hidden;
-  padding: 0 2rem;
+  padding: 2 2rem;
 }
 
 /* Text Styles*/
@@ -116,9 +128,10 @@ img {
 
 /* Cards */
 .card {
-  padding: 1rem;
-  border: #ccc 1px dotted;
-  margin: 0.7rem 0;
+  border-radius: 10px;
+  object-fit: fill;
+  /* border: #ccc 1px dotted; */
+  margin: 1rem 1rem 1rem 1rem;
 }
 
 /* List */
@@ -368,7 +381,7 @@ table th {
 }
 
 .navbar a {
-  color: #fff;
+  color: rgb(0, 0, 0);
   padding: 0.45rem;
   margin: 0 0.25rem;
 }
@@ -417,4 +430,3 @@ table th {
     justify-content: center;
   }
 }
-
