@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Monofett&display=swap');
 
+÷
 /* Global Styles */
 :root {
   --primary-color: #000000;
@@ -16,10 +18,10 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Major Mono Display', monospace;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: rgba(138, 137, 148, 0.555);
+  background-color: rgba(33, 24, 133, 0.555);
   color: rgb(255, 255, 255);
 }
 
@@ -333,7 +335,7 @@ input {
 .form-text {
   display: block;
   margin-top: 0.3rem;
-  color: #888;
+  color: rgb(255, 253, 253);
 }
 
 input[type='text'],
@@ -366,6 +368,7 @@ table th {
 
 /* Navbar */
 .navbar {
+  font-family: 'Monofett', cursive;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -374,6 +377,7 @@ table th {
   width: 100%;
   opacity: 0.9;
   margin-bottom: 1rem;
+  background-color: black;
 }
 
 .navbar ul {
