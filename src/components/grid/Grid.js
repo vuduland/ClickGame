@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import Card from '../grid-items/Card';
 import Gridboard from './Gridboard';
 import Scoreboard from '../grid-items/Scoreboard';
 import images from '../grid-items/imageList.json';
@@ -56,17 +55,18 @@ class Grid extends Component {
 
   render() {
     return (
-      <div className='container'>
-        <div className='row'>
+      <div>
+        <div>
+          <Scoreboard
+            highScore={this.state.highScore}
+            currentScore={this.state.scoreCurrent}
+          />
           <Gridboard
             justClicked={this.state.justClicked}
             grid={this.state.grid}
             handleClick={this.handleClick}
             outcome={this.state.outcome}
-          />
-          <Scoreboard
-            highScore={this.state.highScore}
-            currentScore={this.state.scoreCurrent}
+            style={cardStyle}
           />
         </div>
       </div>
@@ -83,10 +83,10 @@ class Grid extends Component {
   // }
 }
 
-// const cardStyle = {
-//   display: 'grid',
-//   gridTemplateColumns: 'repeat(4, 1fr)',
-//   gridGap: '1rem'
-// };
+const cardStyle = {
+  display: 'grid',
+  gridTemplateColumns: 'repeat(4, 1fr)',
+  gridGap: '1rem'
+};
 
 export default Grid;
