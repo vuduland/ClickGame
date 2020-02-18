@@ -1,20 +1,20 @@
-import React from 'react';
-import Scores from './components/Scores.js';
-import Jumbotron from './components/Jumbotron';
-import Row from 'react-bootstrap/Row';
-import Button from 'react-bootstrap/Button';
+import React, { Component } from 'react';
+import Navbar from './components/layout/Navbar';
+import Grid from './components/grid/Grid';
+import './App.css';
 
-function App() {
-  return (
-    <div className='container'>
-      <Row />
-      {/* <Navbar /> */}
-      {/* <Images /> */}
-      <Button> BUTTON ME </Button>
-      <Scores />
-      <Jumbotron />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+        <Navbar />
+        <div className='container'>
+          <Grid />
+        </div>
+      </div>
+    );
+  }
+
 }
 
 export default App;
