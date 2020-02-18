@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "name": "rsa0",
+    "image": "https://github.com/vuduland/ClickGame/blob/working-branch/src/images/rsa_0.png"
+  },
+  {
+    "id": 1,
+    "name": "rsa1",
+    "image": "./images/rsa_1.png"
+  },
+  {
+    "id": 2,
+    "name": "rsa2",
+    "image": "./images/rsa_2.png"
+  },
+  {
+    "id": 3,
+    "name": "rsa3",
+    "image": "./images/rsa_3.png"
+  },
+  {
+    "id": 4,
+    "name": "rsa4",
+    "image": "./images/rsa_4.png"
+  },
+  {
+    "id": 5,
+    "name": "rsa5",
+    "image": "./images/rsa_5.png"
+  },
+  {
+    "id": 6,
+    "name": "rsa6",
+    "image": "./images/rsa_6.png"
+  },
+  {
+    "id": 7,
+    "name": "rsa7",
+    "image": "./images/rsa_7.png"
+  },
+  {
+    "id": 8,
+    "name": "rsa8",
+    "image": "./images/rsa_8.png"
+  },
+  {
+    "id": 9,
+    "name": "rsa9",
+    "image": "./images/rsa_9.png"
+  },
+  {
+    "id": 10,
+    "name": "rsa10",
+    "image": "./images/rsa_10.png"
+  },
+  {
+    "id": 11,
+    "name": "rsa11",
+    "image": "./images/rsa_11.png"
+  },
+  {
+    "id": 12,
+    "name": "rsa12",
+    "image": "./images/rsa_12.png"
+  },
+  {
+    "id": 13,
+    "name": "rsa13",
+    "image": "./images/rsa_13.png"
+  },
+  {
+    "id": 14,
+    "name": "rsa14",
+    "image": "./images/rsa_14.png"
+  },
+  {
+    "id": 15,
+    "name": "rsa15",
+    "image": "./images/rsa_15.png"
+  }
+]

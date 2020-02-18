@@ -4,15 +4,6 @@ import Grid from './components/grid/Grid';
 import './App.css';
 
 class App extends Component {
-  // state = {
-  //   cardbuttons: [],
-  //   loading: false
-  // };
-
-  // componentDidMount() {
-  //   this.setState({ loading: true });
-  // }
-
   render() {
     return (
       <div className='App'>
