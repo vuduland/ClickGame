@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Gridboard from './Gridboard';
 import Scoreboard from '../grid-items/Scoreboard';
 import images from '../grid-items/imageList.json';
+import '../../App.css';
 
 class Grid extends Component {
   state = {
