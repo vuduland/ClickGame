@@ -12,7 +12,6 @@ class Grid extends Component {
     scoreCurrent: 0,
     highScore: 0,
     outcome: 1
-    // image: images[1]
   };
   handleClick = (id, name) => {
     const clickedArr = [...this.state.clicked];
@@ -74,15 +73,6 @@ class Grid extends Component {
       </div>
     );
   }
-
-  //   return (
-  //     <div style={cardStyle}>
-  //       {this.props.cards.map(card => (
-  //         <Card key={card.id} card={card} />
-  //       ))}
-  //     </div>
-  //   );
-  // }
 }
 
 const cardStyle = {

@@ -4,7 +4,6 @@ import Card from '../grid-items/Card';
 function Gridboard(props) {
   const pro = console.log(props.grid[1].image);
   return (
-    // <div className='btn-block'>
     <div className='col-sm-12'>
       <div className='row'>
         <div className='col-sm-8'>
@@ -25,7 +24,6 @@ function Gridboard(props) {
         </div>
       </div>
     </div>
-    // </div>
   );
 }
 
