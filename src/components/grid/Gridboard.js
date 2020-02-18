@@ -1,5 +1,4 @@
 import React from 'react';
-import Grid from './Grid';
 import Card from '../grid-items/Card';
 
 function Gridboard(props) {
@@ -14,8 +13,8 @@ function Gridboard(props) {
                 key={images.id}
                 name={images.name}
                 img={images.image}
-                handleClick={images.handleClick}
-                outcome={images.outcome}
+                handleClick={props.handleClick}
+                outcome={props.outcome}
               />
             ))}
           </div>

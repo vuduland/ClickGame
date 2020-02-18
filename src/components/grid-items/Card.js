@@ -1,6 +1,5 @@
 import React from 'react';
 
-// import PropTypes from 'prop-types';
 // { images: { id, name, image } }
 const Card = props => {
   return (
